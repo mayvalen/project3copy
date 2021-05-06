@@ -85,6 +85,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("actor")){
         dateContainer.style.display = "block";
+        showDate.style.color = "red";
         
       } else {
         dateContainer.style.display = "none";
@@ -98,6 +99,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("actress")){
         dateContainer.style.display = "block";
+        showDate.style.color = "pink";
         
       } else {
         dateContainer.style.display = "none";
@@ -111,6 +113,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("artist")){
         dateContainer.style.display = "block";
+        showDate.style.color = "#3FC81C";
         
       } else {
         dateContainer.style.display = "none";
@@ -124,6 +127,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("character")){
         dateContainer.style.display = "block";
+        showDate.style.color = "black";
         
       } else {
         dateContainer.style.display = "none";
@@ -137,6 +141,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("comedian")){
         dateContainer.style.display = "block";
+        showDate.style.color = "#FFAD33";
         
       } else {
         dateContainer.style.display = "none";
@@ -150,6 +155,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("director")){
         dateContainer.style.display = "block";
+        showDate.style.color = "#FFF279";
         
       } else {
         dateContainer.style.display = "none";
@@ -163,6 +169,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("entrepreneur")){
         dateContainer.style.display = "block";
+        showDate.style.color = "#B4E3FD";
         
       } else {
         dateContainer.style.display = "none";
@@ -176,6 +183,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("fashion_blogger")){
         dateContainer.style.display = "block";
+        showDate.style.color = "#7244D4";
         
       } else {
         dateContainer.style.display = "none";
@@ -189,6 +197,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("fashion_designer")){
         dateContainer.style.display = "block";
+        showDate.style.color = "#C8F3B3";
         
       } else {
         dateContainer.style.display = "none";
@@ -202,6 +211,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("film_producer")){
         dateContainer.style.display = "block";
+        showDate.style.color = "#EBCFF9";
         
       } else {
         dateContainer.style.display = "none";
@@ -215,6 +225,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("model")){
         dateContainer.style.display = "block";
+        showDate.style.color = "#830000";
         
       } else {
         dateContainer.style.display = "none";
@@ -229,6 +240,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("musician")){
         dateContainer.style.display = "block";
+        showDate.style.color = "#FFE3C1";
         
       } else {
         dateContainer.style.display = "none";
@@ -242,6 +254,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("photographer")){
         dateContainer.style.display = "block";
+        showDate.style.color = "#FFE0FA";
         
       } else {
         dateContainer.style.display = "none";
@@ -255,6 +268,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("rapper")){
         dateContainer.style.display = "block";
+        showDate.style.color = "#56820F";
         
       } else {
         dateContainer.style.display = "none";
@@ -268,6 +282,7 @@ function showCelebrities() {
 
       if (dateContainer.classList.contains("singer")){
         dateContainer.style.display = "block";
+        showDate.style.color = "#FF8888";
         
       } else {
         dateContainer.style.display = "none";

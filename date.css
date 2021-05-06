@@ -10,7 +10,7 @@
 /* 769px — 1024px: Small screens, laptops */
 
 
-a {
+.show-date {
     font-family: 'NeueBit';
     margin-top: 40px;
     margin-bottom: 7px;
@@ -20,9 +20,7 @@ a {
     text-align: center;
 }
 
-a:hover {
-    color: rgb(209, 209, 209);
-}
+
 
 
 .container {
