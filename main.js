@@ -69,40 +69,6 @@ function showCelebrities() {
     dateContainer.append(showDate);
 
 
-
-
-
- 
-
-
-/*        //create div, style as a square to put on top of image
-       var imageSquareOne = document.createElement("div");
-       SquareOne.classList.add("image-square-one");
-       dateContainer.append(imageSquareOne);
-       
-
-       //create div, style as a square to put on top of image
-       var imageSquareTwo = document.createElement("div");
-       SquareTwo.classList.add("image-square-two");
-       dateContainer.append(imageSquareTwo);
-       
-
-       //create div, style as a square to put on top of image
-       var imageSquareThree = document.createElement("div");
-       SquareThree.classList.add("image-square-three");
-       dateContainer.append(imageSquareThree);
-       
-
-       //create div, style as a square to put on top of image
-       var imageSquareFour = document.createElement("div");
-       SquareFour.classList.add("image-square-four");
-       dateContainer.append(imageSquareFour);
-        */
-
-
-
-
-
 //CREATE DATE CONTAINER
     //get genre field from airtable 
     //loop through the array and add each genre as 
@@ -317,7 +283,7 @@ function showCelebrities() {
     }) */
 
 
-//SORTING
+/* //SORTING
     //on mouse over on SORT BY, show the occupations
     var categories = document.querySelector(".js-categories");
     var sortHover = document.querySelector(".js-sort");
@@ -330,7 +296,7 @@ function showCelebrities() {
 
     filter.addEventListener("mouseleave", function(){
       categories.style.display = "none";  
-    })
+    }) */
 
 
 //STYLING IMAGES ON THE PAGE
@@ -342,58 +308,13 @@ function showCelebrities() {
             //add instagram image 1 to container
             var celebImage = document.createElement("img");
             celebImage.classList.add("celeb-image");
-            celebImage.src = celebritie.fields.instagram_images[0].url;
+            celebImage.src = celebritie.fields.image[0].url;
             imageContainer.append(celebImage);
     
-            //add instagram image 2 to container
-            var celebImage = document.createElement("img");
-            celebImage.classList.add("celeb-image");
-            celebImage.src = celebritie.fields.instagram_images[1].url;
-            imageContainer.append(celebImage);
-        
-             //add instagram image 3 to container
-            var celebImage = document.createElement("img");
-            celebImage.classList.add("celeb-image");
-            celebImage.src = celebritie.fields.instagram_images[2].url;
-            imageContainer.append(celebImage);
-    
-            //add instagram image 3 to container
-            var celebImage = document.createElement("img");
-            celebImage.classList.add("celeb-image");
-            celebImage.src = celebritie.fields.instagram_images[3].url;
-            imageContainer.append(celebImage);
-    
-            
-    
-    /* GREY SQUARES */
-            //create div, style as a square to put on top of image
-            var imageSquareOne = document.createElement("div");
-            imageSquareOne.classList.add("image-square-one");
-            imageContainer.append(imageSquareOne);
-            
-    
-            //create div, style as a square to put on top of image
-            var imageSquareTwo = document.createElement("div");
-            imageSquareTwo.classList.add("image-square-two");
-            imageContainer.append(imageSquareTwo);
-            
-    
-            //create div, style as a square to put on top of image
-            var imageSquareThree = document.createElement("div");
-            imageSquareThree.classList.add("image-square-three");
-            imageContainer.append(imageSquareThree);
-            
-    
-            //create div, style as a square to put on top of image
-            var imageSquareFour = document.createElement("div");
-            imageSquareFour.classList.add("image-square-four");
-            imageContainer.append(imageSquareFour);
 
-            //give each image-container a class that matches date-container
-            var imageCeleb = celebritie.fields.occupation;
-            imageCeleb.forEach(function(occupation){
-              imageContainer.classList.add(occupation.replace(/\s/g, ''))
-            }) 
+    
+ 
+
 
 //add reveal and then click function to reveal the name of celebrity
 var reveal = document.createElement("p");
@@ -416,7 +337,7 @@ reveal.addEventListener("click", function(){
 
 //going to remove this for version 4-15
 //CREATE NAME CONTAINER AND ADD ONE RIGHT ANSWER AND TWO WRONG ANSWERS
-/*             var nameContainer = document.createElement("div");
+/*          var nameContainer = document.createElement("div");
             nameContainer.classList.add("name-container");
             document.querySelector(".container").append(nameContainer);
     
